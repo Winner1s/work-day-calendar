@@ -1,2 +1,2 @@
 # Work Day scheduler
-![Getting Started](./images/screenshot.png)
+![Getting Started](./assets\images\screenshot.png)
