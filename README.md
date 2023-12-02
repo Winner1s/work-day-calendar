@@ -18,6 +18,17 @@ Then I can save the notes
 When I can refresh the page
 Then the notes remain after the page is refreshed
 
+## Technology
+1. HTML
+2. CSS
+3. JAVASCRIPT
+4. DAY JS
 
+
+## Sources
+1. https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+2. Tutor/John Titus
+3. Stack Overflow https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+4. https://www.youtube.com/watch?v=YPU6gOctNvM
 
 
