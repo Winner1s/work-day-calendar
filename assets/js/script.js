@@ -77,13 +77,13 @@ if (saveBtn) {
 document.addEventListener("DOMContentLoaded", function () {
   console.log("documentloaded");
   for (const btn of document.querySelectorAll(".saveBtn")) {
-        const timeBlock = btn.parentNode.id.split("-")[1];
-        const savedValue = localStorage.getItem(timeBlock);
-        btn.previousElementSibling.value = savedValue;
+    const timeBlock = btn.parentNode.id.split("-")[1];
+    const savedValue = localStorage.getItem(timeBlock);
+    btn.previousElementSibling.value = savedValue;
     btn.addEventListener("click", function () {
       const userData = this.previousElementSibling.value;
       console.log(userData, timeBlock);
-      localStorage.setItem(timeBlock, userData); 
+      localStorage.setItem(timeBlock, userData);
     });
   }
 });
